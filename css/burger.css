@@ -1,0 +1,5 @@
+.header__burger {
+  width: 30px;
+  height: 2px;
+  background-color: var(--white);
+}
