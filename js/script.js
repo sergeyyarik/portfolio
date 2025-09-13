@@ -18,7 +18,7 @@ menBurg.onclick = function () {
 }
     
 headerLogo.onclick = function(event) {
-    event.preventD
+    event.preventDefault();
             location.href = 'index.html';
     }
  
@@ -38,7 +38,7 @@ headerLogo.onclick = function(event) {
  window.location.replace('contacts.html');
     }
     prodMainButton.onclick = function(event) {
-    event.preventD
+    event.preventDefault();
         window.location.assign('https://sergeyfarm.github.io/SergGenerator/');
     }
 
